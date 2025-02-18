@@ -4,7 +4,6 @@
 
         <div class="container mx-auto flex flex-wrap pt-4 pb-12">
             <main class="w-full md:w-3/4 p-4">
-                <a href="{{route('posts.search')}}">coucou</a>
                 {{-- <a href="{{ route('monster.destroyLatest') }}" class="text-red-500">Supprimer le dernier monstre créé</a> --}}
                 <!-- Section Monstre Aléatoire -->
                 <section class="mb-20">

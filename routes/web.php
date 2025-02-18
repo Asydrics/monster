@@ -62,13 +62,3 @@ Route::put('/monster/update/{id}', [PostsController::class, 'update'])
 
 // Route d'urgence
 Route::get('/monster/destroy-latest', [PostsController::class, 'destroyLatestMonster'])->name('monster.destroyLatest');
-
-
-
-
-
-    
-
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
